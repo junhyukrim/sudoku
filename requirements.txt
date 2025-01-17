@@ -1,6 +1,6 @@
 random
-sudoku_func.generator  # Importing the generator module
-sudoku_func.solver     # Importing the solver module
+sudoku_func.generator
+sudoku_func.solver
 json
 copy
 streamlit
