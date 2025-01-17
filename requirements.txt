@@ -1,0 +1,11 @@
+random
+generator  # Importing the generator module
+solver     # Importing the solver module
+solver.candi_init
+solver.candi_update
+json
+copy
+streamlit
+pymysql
+pandas
+ast
