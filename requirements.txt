@@ -1,9 +1,3 @@
-random
-sudoku_func.generator
-sudoku_func.solver
-json
-copy
 streamlit
 pymysql
 pandas
-ast
