@@ -95,6 +95,7 @@ if call_by_str:
 if call_by_id:
     # with open('password.pw', 'r') as pw_file:
     #     db_password = pw_file.read().strip()
+    #왜 주석 처리가 안되는가? 
 
     database_name = 'sudoku_db'
 
