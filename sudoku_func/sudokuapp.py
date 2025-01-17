@@ -63,7 +63,7 @@ if call_by_str:
     try:
         connection = pymysql.connect(
             host='dbcon_host',
-            port='dbcon_port',
+            port=int('dbcon_port'),
             user='dbcon_user',
             password='db_password',
             database=database_name,
@@ -102,7 +102,7 @@ if call_by_id:
     try:
         connection = pymysql.connect(
             host='dbcon_host',
-            port='dbcon_port',
+            port=int('dbcon_port'),
             user='dbcon_user',
             password='db_password',
             database=database_name,
