@@ -55,8 +55,8 @@ if 'candidates' not in st.session_state:
     st.session_state.candidates = [[set() for _ in range(9)] for _ in range(9)]
 
 if call_by_str:
-    with open('password.pw', 'r') as pw_file:
-        db_password = pw_file.read().strip()
+    # with open('password.pw', 'r') as pw_file:
+    #     db_password = pw_file.read().strip()
 
     database_name = 'sudoku_db'
 
