@@ -93,8 +93,8 @@ if call_by_str:
             connection.close()
 
 if call_by_id:
-    with open('password.pw', 'r') as pw_file:
-        db_password = pw_file.read().strip()
+    # with open('password.pw', 'r') as pw_file:
+    #     db_password = pw_file.read().strip()
 
     database_name = 'sudoku_db'
 
