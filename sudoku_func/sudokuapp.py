@@ -56,7 +56,7 @@ if 'candidates' not in st.session_state:
 
 if call_by_str:
     # with open('password.pw', 'r') as pw_file:
-    #     db_password = pw_file.read().strip()
+    #     'db_password' = pw_file.read().strip()
 
     database_name = 'sudoku_db'
 
@@ -65,7 +65,7 @@ if call_by_str:
             host='localhost',
             port=3306,
             user='root',
-            password=db_password,
+            password='db_password',
             database=database_name,
             charset='utf8mb3'
         )
@@ -94,7 +94,7 @@ if call_by_str:
 
 if call_by_id:
     # with open('password.pw', 'r') as pw_file:
-    #     db_password = pw_file.read().strip()
+    #     'db_password' = pw_file.read().strip()
     #왜 주석 처리가 안되는가? 대체 왜 add . 후에 status 확인
 
     database_name = 'sudoku_db'
@@ -104,7 +104,7 @@ if call_by_id:
             host='localhost',
             port=3306,
             user='root',
-            password=db_password,
+            password='db_password',
             database=database_name,
             charset='utf8mb3'
         )
