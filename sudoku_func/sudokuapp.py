@@ -62,10 +62,10 @@ if call_by_str:
 
     try:
         connection = pymysql.connect(
-            host='dbcon_host',
-            port=int('dbcon_port'),
-            user='dbcon_user',
-            password='db_password',
+            host=st.secrets['dbcon_host'],
+            port=int(st.secrets['dbcon_port']),
+            user=st.secrets['dbcon_user'],
+            password=st.secrets['db_password'],
             database=database_name,
             charset='utf8mb3'
         )
@@ -101,10 +101,10 @@ if call_by_id:
 
     try:
         connection = pymysql.connect(
-            host='dbcon_host',
-            port=int('dbcon_port'),
-            user='dbcon_user',
-            password='db_password',
+            host=st.secrets['dbcon_host'],
+            port=int(st.secrets['dbcon_port']),
+            user=st.secrets['dbcon_user'],
+            password=st.secrets['db_password'],
             database=database_name,
             charset='utf8mb3'
         )
