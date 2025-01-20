@@ -10,6 +10,7 @@ st.title('S.S.S (Solve Sudoku with Strategy)')
 st.write('Select strategies from **SIDEBAR**. A higher number indicates greater difficulty. You may proceed without selecting any options.')
 
 st.sidebar.title('Select Strategy')
+st.sidebar.link_button("Go learn strategy", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxdT71HwtpvW0IiiRwqM3SJfviPK1MOQciIjiSZCLUB-8xvzIBIQ7xD8RLeDHUkF_iBRW24PKak7VM/pubhtml")
 str_checkboxes = {
     "rule_1_hidden_single": st.sidebar.checkbox("rule 1. hidden single"),
     "rule_2_naked_pair": st.sidebar.checkbox("rule 2. naked pair"),
