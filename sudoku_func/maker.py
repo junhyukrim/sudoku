@@ -37,7 +37,7 @@ def maker(num,rules):
 def rep_maker_send_to_db(rep,num,rules):
     with open('password.pw', 'r') as pw_file:
         lines = pw_file.read().splitlines()
-        db_password = lines[2]
+        db_password = lines[0]
     database_name='sudoku_db'
 
     connection = pymysql.connect(
