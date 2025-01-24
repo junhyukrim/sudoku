@@ -76,4 +76,4 @@ def rep_maker_send_to_db(rep,num,rules):
 
 
 
-rep_maker_send_to_db(1,28,[1,0,0,0,0])
+rep_maker_send_to_db(1,28,[1,1,1,1,0])
